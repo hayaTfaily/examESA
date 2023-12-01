@@ -1,0 +1,64 @@
+.bs
+{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(20, 177, 140);
+    transition: transform 0.3s;
+    width: 99%;
+}
+.bs:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.c
+{
+    background-color: blue;
+}
+.c2:hover
+{
+    transform: scale(1.1);
+}
+.c1
+{
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.15);
+}
+.list
+{
+    padding: 10px;
+    background-color:green;
+    border-radius:20px;
+}
+#forsearch
+{
+    width:50%;
+    transition: width 0.3s;
+}
+#forsearch:focus
+{
+    width: 100%;
+}
+h4
+{
+    text-shadow: 1px 1px 2px black;
+}
+.alert
+{
+    transition: transform 0.3s;  
+}
+.alert:hover
+{
+    transform: scale(1.1);
+    text-shadow:rgb(6, 6, 6) 1px 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+.c3
+{
+    transition: transform 0.3s;  
+    margin-top: 20px;
+}
+.c3:hover
+{
+    transform: scale(1.1);
+}
